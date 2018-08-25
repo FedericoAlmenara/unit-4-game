@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gem Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="container">
+            <div class="col-md-2"></div>
+            <div class="col-md-10">
+                <h2>Pick the gems to reach the correct number!</h2>
+            </div>
+        
+        </div>
+        </div>
+        <h1>Hello traveller!</h1>
+        <p>Welcome to my website. Unfortunately it is currently inhabited by a dragon that will only die if you press these four gems to reach his number.</p>
+        <p>Your number so far:</p>
+        <p id="userNumber">0</p>
+        <div class="row">
+                <div class="col-sm-3 col-md-3" style="background-color:lavender;">
+                    </div>
+            <div class="col-sm-6 col-md6" style="background-color:lavender;">
+                <div class="card card-default">
+                    <div class="card-body">
+                    <button id="redGemBtn" class="btn btn-danger">Red Gem</button>
+                    <button id="greenGemBtn" class="btn btn-success">Green Gem</button>
+                    <button id="blueGemBtn" class="btn btn-info">Blue Gem</button>
+                    <button id="yellowGemBtn" class="btn btn-warning">Yellow Gem</button>
+                </div>
+                    
+                </div>
+                <div class="col-sm-3 col-md-3" style="background-color:lavender;"></div>
+                </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-sm-4 col-md-4" style="background-color:azure;"> 
+                                <div class="numberToMatch">
+                                        <h2>Number To Get:
+                                            <span id= "randomNumber"></span>
+                                        <h4>Wins:</h4><h4 id="winCounter"></h4>
+                                        <h4>Losses:</h4><h4 id="lossCounter"></h4>
+                                        </h2>
+                                    </div>
+                            </div>
+                    <div class="col-sm-4 col-md-4" style="background-color:lavenderblush;">
+                        <img src = "assets/images/282px-Welsh_Dragon_(Y_Ddraig_Goch).svg.png">
+                    </div>
+                    <div class="col-sm-4 col-md-4" style="background-color:lavenderblush;">                       </div>
+                </div>
+                <div class="row">
+                    <button id="reset" class="btn btn-caution">reset</button>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
